@@ -1,0 +1,15 @@
+{
+  "models": [
+    {
+      "title": "Mistral 7B",
+      "provider": "mistral",
+      "model": "open-mistral-7b",
+      "roles": ["chat", "edit"]
+    }
+  ],
+  "continue.mcpServers": {
+    "sentiment-analysis": {
+      "url": "http://127.0.0.1:8000/mcp"
+    }
+  }
+}

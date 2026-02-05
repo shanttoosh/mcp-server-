@@ -1,0 +1,7 @@
+name: Sentiment Analysis Server
+version: 0.0.1
+schema: v1
+mcpServers:
+  - name: sentiment-analysis
+    url: "http://127.0.0.1:8000/mcp"
+    policy: automatic

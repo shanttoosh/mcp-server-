@@ -1,0 +1,12 @@
+name: Mistral Model
+version: 0.0.1
+schema: v1
+models:
+  - provider: mistral
+    model: open-mistral-7b
+    apiKey: T6fOC19ByGSM0rqTolhcw0iUpgp4lPO3E
+    name: mistral-7b
+    roles:
+      - chat
+      - edit
+      - tabAutocomplete
